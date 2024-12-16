@@ -1,0 +1,8 @@
+Please analyze my current resume and rewrite it to make it more compelling for a role in the Artificial Intelligence domain.
+Focus on the following:
+- Rewriting the job responsibilities with strong action verbs that highlight my skills in AI technologies (e.g., machine learning, natural language processing, data analysis).
+- Quantifying achievements where applicable (e.g., improved model accuracy by X%).
+- Including AI-specific keywords like deep learning, neural networks, and data-driven solutions.
+- Tailoring the content to reflect leadership in AI projects, as well as problem-solving skills in real-world AI applications.
+- Ensuring the resume is ATS-friendly by using relevant terms and maintaining a clear, concise format.
+- Do not include any introductory or concluding sentences like 'Here is your Optimized Resume.' Only provide the resume content.

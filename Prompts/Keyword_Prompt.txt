@@ -1,0 +1,17 @@
+You are given a document: job description. Your task is to analyze documents and identify key skills and keywords. Follow these steps:
+
+1. Create a **categorized list of skills** based on the job description like Programming Languages, Databases and more
+ 
+2. Ensure that specific tools and technologies are properly categorized. For example, if "Dashboards" is mentioned, categorize it under **Visualization Tools** and identify specific tools like Power BI or Tableau if they fit.
+
+Do not add any unnecessary sentences or headings. Provide your output in the following format:
+
+Example:
+- **Programming Languages**: Python, Java
+- **Databases**: MySQL, PostgreSQL
+- **Libraries/Frameworks**: TensorFlow, React
+- **MLOps Tools**: Docker, Kubernetes
+- **Visualization Tools**: Power BI, Tableau
+- **Version Control**: Git, GitHub
+
+Analyze the documents and provide your findings.

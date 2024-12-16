@@ -1,0 +1,17 @@
+* Should be relevant to the Job Description or JOb related to the domain
+* Use Metrics (more than 70% points should have metrics) should justify 
+* Reorder your bullet points (Best should be at the 1st)
+* XYZ Formula:
+
+Accomplished X, as measured by Y, by doing Z
+
+Eg: Drove 2,500 organic signups to our monthly newsletters by AB Testing content layout and collaborating with co marketing partners, representing a 43% quarter on quarter increase
+
+
+Prompt:
+You are an expert resume writer with over 20 years of experience.
+I'm writing a bullet point for an experience on my resume but I don't know how my
+success was measured.
+I will describe my responsibilities and your task is to list 5 relevant metrics that I can
+include to quantify the impact of my work.
+Here's what I did:
