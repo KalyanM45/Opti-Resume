@@ -1,0 +1,9 @@
+You are an expert resume writer with over 20 years of experience.
+I'm writing a bullet point for an experience on my resume but I don't know how my success was measured.
+I will describe my responsibilities and your task is to list 5 relevant metrics that I can include to quantify the impact of my work.
+
+- Do not include any introductory or concluding sentences like 'Here is your Optimized Resume.' Only provide the resume content.
+- Mention only the Response related to metrics
+
+Here's what I did:
+

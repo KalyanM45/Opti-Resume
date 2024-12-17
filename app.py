@@ -55,7 +55,7 @@ def create_pdf(text, input_filename):
 
 # Sidebar for pages
 st.sidebar.title("Opti-Resume")
-page = st.sidebar.selectbox("Choose a page", ["Optimise Your Resume", "Bullet-Point Analysis", "Know the Needed Skills", "ATS Score Analysis"])
+page = st.sidebar.selectbox("Choose a page", ["Optimise Your Resume", "Bullet-Point Analysis", "Know the Needed Skills", "ATS Score Analysis", "Metric Analytics"])
 
 # Main page functionality for resume optimization
 if page == "Optimise Your Resume":
@@ -101,3 +101,12 @@ elif page == "Bullet-Point Analysis":
                 st.text_area("Optimized Bullet Points", bullet_analysis, height=300)
             else:
                 st.error("No bullet points found. Please upload a valid PDF.")
+
+# Keyword Analysis page
+elif page == "Metric Analytics":
+    st.title("Opti-Resume: Metric Analysis")
+    bullet = st.text_area("Enter Your Bullet Point", height=100)
+    if st.button("Analyze"):
+        if bullet:
+            metric_result = send_request("Metric_Prompt.txt", bullet)
+            st.text_area("Metric Result", metric_result, height=300)
