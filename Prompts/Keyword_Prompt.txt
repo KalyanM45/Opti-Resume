@@ -1,17 +1,13 @@
-You are given a document: job description. Your task is to analyze documents and identify key skills and keywords. Follow these steps:
+Given the job description, your task is to find and categorize **Technical Skills**:
 
-1. Create a **categorized list of skills** based on the job description like Programming Languages, Databases and more
- 
-2. Ensure that specific tools and technologies are properly categorized. For example, if "Dashboards" is mentioned, categorize it under **Visualization Tools** and identify specific tools like Power BI or Tableau if they fit.
+1. Identify and create specific, relevant categories for technical skills, tools, and libraries based on the job description.
+2. List the specific technical skills mentioned in the job description and validate if they fall under the correct category (e.g., technologies, programming languages, tools, etc.).
+3. Include only the tools, libraries, and technologies explicitly mentioned in the job description.
+4. Ensure that only technical skills and tools are included, and avoid any abstract concepts or non-technical terms.
+5. If a category or specific skill/tool is not mentioned in the job description, do not include it in the response.
+6. The response should be structured as follows:
 
-Do not add any unnecessary sentences or headings. Provide your output in the following format:
+   - **Category Name**: Skill Name 1, Skill Name 2, Skill Name 3, ...
 
-Example:
-- **Programming Languages**: Python, Java
-- **Databases**: MySQL, PostgreSQL
-- **Libraries/Frameworks**: TensorFlow, React
-- **MLOps Tools**: Docker, Kubernetes
-- **Visualization Tools**: Power BI, Tableau
-- **Version Control**: Git, GitHub
-
-Analyze the documents and provide your findings.
+7. **Validate** that the listed skills fall under the correct category based on the job description. Each skill should be placed under the most specific category it fits into."
+8. Do not include any introductory or concluding sentences like 'Here is your' Only provide the skills content.

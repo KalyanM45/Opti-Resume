@@ -1,0 +1,40 @@
+/* Apply background image to the whole app, including the sidebar and header */
+.stApp {
+    background-image: url("https://wallpapers.com/images/high/professional-background-4b31fgiuezafrguu.webp");  /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.sidebar .sidebar-content {
+    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+    color: white;
+    height: 100%;
+}
+.sidebar .sidebar .sidebar-header {
+    background-color: rgba(255, 255, 255, 0.5);  /* Semi-transparent background for sidebar header */
+    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+}
+.stTextArea textarea {
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-family: 'Arial', Arial, Arial;
+}
+.stButton button {
+    background-color: #4CAF50;  /* Green background for buttons */
+    color: white;
+    font-weight: bold;
+}
+.stTitle {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+.stMarkdown {
+    font-family: 'Arial', sans-serif;
+}
+.page-title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}

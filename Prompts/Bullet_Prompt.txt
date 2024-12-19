@@ -1,11 +1,6 @@
-You are an expert resume writer with over 20 years of experience. I need help crafting a precise and clear bullet point for my resume. Please follow these guidelines:
+Please help me craft a precise and clear bullet point for my resume. Here are my guidelines
 
-1. Ensure the bullet point is **relevant**, **believable**, and **professional**.
-2. Use **metrics** in more than 70% of the bullet points, ensuring they are **meaningful** and **accurate**.
-3. **Reorder the bullet points** to highlight the most impactful achievement first.
-4. Follow the **XYZ formula**: 
-   - **Accomplished X, as measured by Y, by doing Z**.
-   - Example: "Drove 2,500 organic signups to our monthly newsletters by AB Testing content layout and collaborating with co-marketing partners, resulting in a 43% increase."
-5. Ensure the bullet point is **precise** and **clear**, avoiding unnecessary words.
-6. Use **appropriate tense** based on the timeframe (e.g., past or present).
-7. Avoid **complicated language**; keep it simple and direct. 
+ - Ensure the bullet point is relevant, believable, and professional also should contain a valid metrics.
+ - Follow the XYZ formula: Accomplished X, as measured by Y, by doing Z.
+ - Ensure the bullet point is Precise, Short and clear, Avoiding Unnecessary words.
+ - Use appropriate tense based on the timeframe (e.g., past or present).
