@@ -1,40 +1,92 @@
-/* Apply background image to the whole app, including the sidebar and header */
+/* Apply background image to the whole app */
 .stApp {
-    background-image: url("https://wallpapers.com/images/high/professional-background-4b31fgiuezafrguu.webp");  /* Add your image URL here */
+    background-image: url("https://wallpapers.com/images/high/professional-background-4b31fgiuezafrguu.webp");  /* Change the URL as needed */
     background-size: cover;
     background-position: center;
     height: 100%;
 }
-.sidebar .sidebar-content {
-    background-image: linear-gradient(#2e7bcf,#2e7bcf);
-    color: white;
+
+/* Sidebar Styling */
+section[data-testid="stSidebar"] {
+    background-image: url("https://wallpapers.com/images/high/professional-background-4b31fgiuezafrguu.webp");
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    border-right: 2px solid #ddd;
 }
-.sidebar .sidebar .sidebar-header {
-    background-color: rgba(255, 255, 255, 0.5);  /* Semi-transparent background for sidebar header */
-    background-image: linear-gradient(#2e7bcf,#2e7bcf);
+
+/* Sidebar Title */
+section[data-testid="stSidebar"] .css-1v0mbdj {
+    color: white !important;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
+
+/* Sidebar Widgets */
+section[data-testid="stSidebar"] .stSelectbox, 
+section[data-testid="stSidebar"] .stButton, 
+section[data-testid="stSidebar"] .stTextInput {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    color: white;
+}
+
+/* Style for text areas */
 .stTextArea textarea {
     border: 2px solid #4CAF50;
     border-radius: 5px;
-    font-family: 'Arial', Arial, Arial;
-}
-.stButton button {
-    background-color: #4CAF50;  /* Green background for buttons */
-    color: white;
-    font-weight: bold;
-}
-.stTitle {
-    color: #333;
     font-family: 'Arial', sans-serif;
 }
+
+/* Style for buttons */
+.stButton button {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #45a049;
+}
+
+/* Titles and text styling */
+h1, .stTitle {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
 .stMarkdown {
     font-family: 'Arial', sans-serif;
 }
+
+/* Custom page title styling */
 .page-title {
     font-size: 24px;
     color: #333;
     font-weight: bold;
     padding: 20px 0;
     text-align: center;
+}
+
+/* Scrollbar Customization */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #45a049;
 }
